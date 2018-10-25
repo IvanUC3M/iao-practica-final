@@ -8,13 +8,13 @@ https://petscan.wmflabs.org/
 
 ## Script para collecionar datos:
 
-`python DataCollector`
+`python DataCollector.py`
 
 ## Comandos básicos de git:
 
 Cambiar de rama:
 
-`git fetch & git checkout branch`
+`git fetch && git checkout branch`
 
 Confirmar un cambio:
 
