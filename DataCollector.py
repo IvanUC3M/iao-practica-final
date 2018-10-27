@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 import requests
 import json
-URL = "http://www.omdbapi.com/?apikey=f5a1c7cc&t=Venom"
+URL = "https://api.themoviedb.org/3/authentication/token/new?api_key=690e7bd75cb506aa7ddb08f1d04e6e38"
+request = requests.get(URL)
+URL = "https://api.themoviedb.org/3/movie/top_rated?api_key=690e7bd75cb506aa7ddb08f1d04e6e38&page=319"
 request = requests.get(URL)
 data = request.json() 
-with open('data.json', 'w') as outfile:
-    json.dump(data, outfile)
+movieObject = json.loads(request.text)
+totalNumberOfPages = movieObject["total_pages"]
+for _ in range(totalNumberOfPages):
+	
