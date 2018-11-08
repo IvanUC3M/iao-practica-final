@@ -1,2 +1,3 @@
 https://developers.themoviedb.org/3/reviews/get-review-details
 https://www.themoviedb.org/movie/260513-the-incredibles-2?language=es-ES
+https://developers.themoviedb.org/3/find/find-by-id(este para buscar por id externo , el id externo se peude sacar del otro script que usa la otra base de datos)
