@@ -20,3 +20,9 @@ Enviar cambios al repositorio:
 Traer cambios del repositorio a local:
 
 `git pull origin master`
+
+## TAREAS A REALIZAR:
+- Investigar Aylien
+- Preprocesar datos (Elegir atributos)
+- Separar las keywords mediante mineria de texto (Weka)
+- Obtener campos faltantes (director y actores)
