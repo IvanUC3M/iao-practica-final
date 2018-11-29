@@ -1,14 +1,7 @@
 # Práctica final de IAO 2018
 
-## Uso de petscan:
-
-https://petscan.wmflabs.org/
-  1.Seleccionar Language "en"
-  2. Añadir en categorias el año de la siguiente forma: "20XX_Films"
-
-## Script para collecionar datos:
-
-`python DataCollector.py`
+## Documentación de la API:
+`https://developers.themoviedb.org/3/getting-started/introduction`
 
 ## Comandos básicos de git:
 
